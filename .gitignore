@@ -2,15 +2,38 @@
 bin/
 *.class
 
-# Package Files
+# Package files
 *.war
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-# Log files
+# Logs
 *.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local database files and exports
+*.sqlitedb
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# User uploads and local data
+uploads/
+data/
+private/
+secrets/
 
 # Windows temporary files
 Thumbs.db

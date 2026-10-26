@@ -28,6 +28,8 @@ bin/
 *.db
 *.dump
 *.bak
+sql/backup*.sql
+*.sql.bak
 
 # User uploads and local data
 uploads/
